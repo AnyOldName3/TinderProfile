@@ -1,0 +1,1 @@
+[ `stat --printf="%s" Profile.txt` -le 500 ]
