@@ -1,1 +1,3 @@
-[ `stat --printf="%s" Profile.txt` -le 500 ]
+language: ruby
+script:
+  - test $(stat --printf="%s" Profile.txt) -le 500
